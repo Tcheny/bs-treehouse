@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 #tcheny .navbar {
   padding: 10px;
   font-size: 1.2vw;
-  font-weight: bold;
   background-color: #fff;
 }
 #tcheny .navbar-brand {
@@ -36,9 +35,7 @@ body {
 }
 #tcheny .headerTitle h1 {
   font-size: 6vw;
-  font-weight: bold;
   line-height: 130%;
-
 }
 #tcheny .headerTitle p {
   font-size: 1.5vw;
@@ -56,8 +53,8 @@ body {
   font-size: 2.1vw;
 }
 #flexible p {
-  margin-top: 10px;
-  font-size: 1.4vw;
+  margin-top: 15px;
+  font-size: 1.3vw;
   color: rgb(148, 146, 146);
   font-weight: lighter;
 }
@@ -66,6 +63,8 @@ body {
 }
 #flexible .flex-part {
   padding: 50px 0;
+  width: 80%;
+  margin: auto;
 }
 #flexible .topics {
   width: 80%;
@@ -157,4 +156,11 @@ body {
 }
 #flexible .businesses h2 {
   padding-bottom: 40px;
+}
+#flexible .businesses a {
+  font-weight: bold;
+  color: rgb(59, 205, 231);
+}
+#flexible .businesses a:hover {
+  text-decoration: none;
 }
