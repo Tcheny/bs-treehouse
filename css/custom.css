@@ -1,138 +1,160 @@
-/* Bootstrap Customize */
-
-/* JALEL HEADER*/
-#homeHeading
-{
-  text-align: center;
-  margin: auto;
-}
-/* FIN JALEL HEADER*/
-
-/* START TCHENY CSS */
-
-/* color: #F05F40; */
-#service
-{
-  text-align: center;
-}
-#service .container
-{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#service .title
-{
-  margin: 30px;
-}
-#service h2
-{
-  margin: 20px 0;
-}
-#service .separator
-{
-  margin: auto;
-  width: 60px;
-  border: 1.5px solid #F05F40;
-}
-#service .row
-{
-margin: 50px 0;
-}
-#service .fa
-{
-  font-size: 350%;
-  color: #F05F40;
-}
-#service p
-{
-  font-size: 120%;
-  color: #7F7777;
-}
-/* END TCHENY CSS*/
-
-/*PARTIE SHAMILA : GALERIE D'IMAGES*/
-
-.col-md-4 {
+body {
+  margin: 0;
   padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
 }
-
-#dl-section {
-  background-color: #222222;
-  height: 205px;
-  text-align: center;
-}
-
-#dl-section p {
-  color: #FFFFFF;
-  padding-top: 45px;
-  font-size: 30px;
-  margin-bottom: 25px;
-}
-
-#dl-section a {
-  background-color: #FFF;
-  color: #000;
-  border-radius: 50px;
-  padding: 15px 30px;
+#tcheny .navbar {
+  padding: 10px;
+  font-size: 1.2vw;
   font-weight: bold;
+  background-color: #fff;
 }
+#tcheny .navbar-brand {
+  color: #3AC162;
+  font-size: 2vw;
+}
+#tcheny .nav-green {
+  color: #3AC162;
+}
+#tcheny .nav-black {
+  color: #000 !important;
+}
+#tcheny .header {
+  background-image: url(../images/Header.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+#tcheny .header {
+  padding: 70px 0;
+  color: #fff;
+}
+#tcheny .headerTitle {
+  padding: 0 30px;
+}
+#tcheny .headerTitle h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  line-height: 130%;
 
-#dl-section a:hover {
-  text-decoration: none;
 }
-/*FIN PARTIE SHAMILA*/
-
-/* PRESCISE */
-.footer{
-  width: 100%;
-  height: 400px;
-  background-color: #ffffff;
+#tcheny .headerTitle p {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin: 30px 0;
 }
-
-.text p{
-  text-align: center;
-  margin-top: 50px;
+#tcheny .btn-custom {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(85, 85, 85);
+  padding: 1vw;
+  border-radius: 3px;
 }
-
-h1 {
-  font-size: 25px;
-  text-align: center;
-  margin-top: 60px;
+#flexible h2 {
+  margin-top: 20px;
+  font-size: 2.1vw;
 }
-
-hr{
-  width: 0px;
-  height: 5px;
-  color: orange;
-  background-color: orange;
-}
-
-img{
-  width: 50px;
-  height: 50px;
-}
-.icone-enveloppe{
-  float: right;
-  margin-right: 230px;
-  color: orange;
-}
-
-.icone-telephone{
-  float: left;
-  margin-left: 390px;
-}
-.fa {
-  font-size: 300%;
-  color: #000;
-}
-
-.text-t{
-margin-left: 360px;
-margin-top: 100px;
-}
-
-.text-e{
-  margin-right: 100px;
+#flexible p {
   margin-top: 10px;
+  font-size: 1.4vw;
+  color: rgb(148, 146, 146);
+  font-weight: lighter;
 }
-/* END PRESCISE */
+#flexible h3 {
+  font-size: 1.5vw;
+}
+#flexible .flex-part {
+  padding: 50px 0;
+}
+#flexible .topics {
+  width: 80%;
+  margin: auto;
+  background-color: #F9FAFA;
+  padding: 50px 0;
+}
+#flexible .container-list {
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
+}
+#flexible .list-inline li{
+   border: 2px solid rgb(230, 228, 228);
+   border-radius: 50px;
+   padding: 7px 11px;
+   margin: 3px;
+}
+#flexible .html {
+  color: rgb(71, 193, 226);
+}
+#flexible .css {
+  color: rgb(37, 106, 171);
+}
+#flexible .design {
+  color: rgb(240, 170, 52);
+}
+#flexible .js {
+  color: rgb(162, 64, 111);
+}
+#flexible .rb {
+  color: rgb(255, 11, 11);
+}
+#flexible .php {
+  rgb(125, 33, 218);
+}
+#flexible .wp {
+  color: rgb(121, 112, 221);
+}
+#flexible .ios {
+  color: rgb(118, 166, 128);
+}
+#flexible .android {
+  color: rgb(59, 219, 85);
+}
+#flexible .devtools {
+  color: rgb(74, 80, 110);
+}
+#flexible .python {
+  color: rgb(245, 216, 250);
+}
+#flexible .java {
+  color: rgb(77, 175, 57);
+}
+#flexible .digitalL {
+  color: rgb(184, 148, 224);
+}
+#flexible .gDev {
+  color: rgb(43, 107, 49);
+}
+#flexible .csharp {
+  color: rgb(164, 142, 108);
+}
+#flexible .daA {
+  color: rgb(219, 138, 53);
+}
+#flexible .virRea {
+  color: rgb(85, 223, 20);
+}
+#flexible .dB {
+  color: rgb(56, 60, 78);
+}
+#flexible .apis {
+  color: rgb(124, 98, 32);
+}
+#flexible .secur {
+  color: rgb(215, 138, 66);
+}
+#flexible .go {
+  color: rgb(38, 99, 138);
+}
+#flexible .businesses {
+  background-color: #F9FAFA;
+  padding: 50px 0;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+#flexible .businesses h2 {
+  padding-bottom: 40px;
+}
