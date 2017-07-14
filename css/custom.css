@@ -1,138 +1,104 @@
-/* Bootstrap Customize */
+* {
+  /*border: 1px solid black;*/
+}
 
-/* JALEL HEADER*/
-#homeHeading
-{
-  text-align: center;
-  margin: auto;
-}
-/* FIN JALEL HEADER*/
-
-/* START TCHENY CSS */
-
-/* color: #F05F40; */
-#service
-{
-  text-align: center;
-}
-#service .container
-{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#service .title
-{
-  margin: 30px;
-}
-#service h2
-{
-  margin: 20px 0;
-}
-#service .separator
-{
-  margin: auto;
-  width: 60px;
-  border: 1.5px solid #F05F40;
-}
-#service .row
-{
-margin: 50px 0;
-}
-#service .fa
-{
-  font-size: 350%;
-  color: #F05F40;
-}
-#service p
-{
-  font-size: 120%;
-  color: #7F7777;
-}
-/* END TCHENY CSS*/
-
-/*PARTIE SHAMILA : GALERIE D'IMAGES*/
-
-.col-md-4 {
+body {
+  margin: 0;
   padding: 0;
 }
 
-#dl-section {
-  background-color: #222222;
-  height: 205px;
-  text-align: center;
+/* ========== TEXT ==========*/
+#Mike {
+  height: 955px;
+  background-color: #EDEFF0;
 }
 
-#dl-section p {
-  color: #FFFFFF;
-  padding-top: 45px;
-  font-size: 30px;
-  margin-bottom: 25px;
+#Mike .text {
+  padding-top: 20px;
 }
 
-#dl-section a {
-  background-color: #FFF;
-  color: #000;
-  border-radius: 50px;
-  padding: 15px 30px;
+#Mike .text h1 {
+  padding-top: 30px;
+  font-size: 2.9em;
+}
+
+#Mike .text p {
+  padding: 10px 0px 40px 0px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+/* ========== END TEXT ==========*/
+
+/* ========== FORMULAIRE ==========*/
+#Mike .formulaire {
+  width: 80%;
+  margin: auto;
+}
+
+#Mike label {
+  padding-top: 20px;
+}
+
+#Mike button {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: #5FCF80;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#Mike button:hover {
+  background-color: #3AC162;
+  transition: 0.4s;
+}
+
+#Mike .btn {
+  height: 60px;
+  width: 180px;
+}
+
+#Mike span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #C52222;
   font-weight: bold;
 }
+/* ========== END FORMULAIRE ==========*/
 
-#dl-section a:hover {
+/* ========== FOOTER ==========*/
+#Mike .footer {
+  background-color: #F9FAFA;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+#Mike .verticalfooter {
+  display: flex;
+  align-items: center;
+}
+
+#Mike img {
+  height: 40px;
+}
+
+#Mike a {
+  color: #B8BBBC;
+}
+
+#Mike a:hover {
   text-decoration: none;
 }
-/*FIN PARTIE SHAMILA*/
 
-/* PRESCISE */
-.footer{
-  width: 100%;
-  height: 400px;
-  background-color: #ffffff;
-}
-
-.text p{
-  text-align: center;
-  margin-top: 50px;
-}
-
-h1 {
-  font-size: 25px;
-  text-align: center;
-  margin-top: 60px;
-}
-
-hr{
-  width: 0px;
-  height: 5px;
-  color: orange;
-  background-color: orange;
-}
-
-img{
-  width: 50px;
-  height: 50px;
-}
-.icone-enveloppe{
-  float: right;
-  margin-right: 230px;
-  color: orange;
-}
-
-.icone-telephone{
-  float: left;
-  margin-left: 390px;
-}
-.fa {
-  font-size: 300%;
+#Mike i {
   color: #000;
+  padding-left: 5px;
 }
 
-.text-t{
-margin-left: 360px;
-margin-top: 100px;
+#Mike i:hover {
+  color: #5FCF80;
+  transition: 0.3s;
 }
-
-.text-e{
-  margin-right: 100px;
-  margin-top: 10px;
-}
-/* END PRESCISE */
+/* ========== END FOOTER ==========*/
