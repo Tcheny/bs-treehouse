@@ -1,3 +1,99 @@
+/* ========== TEXT MIKE ==========*/
+#Mike {
+  height: 955px;
+  background-color: #EDEFF0;
+}
+
+#Mike .text {
+  padding-top: 20px;
+}
+
+#Mike .text h1 {
+  padding-top: 30px;
+  font-size: 2.9em;
+}
+
+#Mike .text p {
+  padding: 10px 0px 40px 0px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+/* ========== END TEXT ==========*/
+
+/* ========== FORMULAIRE ==========*/
+#Mike .formulaire {
+  width: 80%;
+  margin: auto;
+}
+
+#Mike label {
+  padding-top: 20px;
+}
+
+#Mike button {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: #5FCF80;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#Mike button:hover {
+  background-color: #3AC162;
+  transition: 0.4s;
+}
+
+#Mike .btn {
+  height: 60px;
+  width: 180px;
+}
+
+#Mike span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #C52222;
+  font-weight: bold;
+}
+/* ========== END FORMULAIRE ==========*/
+
+/* ========== FOOTER ==========*/
+#Mike .footer {
+  background-color: #F9FAFA;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+#Mike .verticalfooter {
+  display: flex;
+  align-items: center;
+}
+
+#Mike img {
+  height: 40px;
+}
+
+#Mike a {
+  color: #B8BBBC;
+}
+
+#Mike a:hover {
+  text-decoration: none;
+}
+
+#Mike i {
+  color: #000;
+  padding-left: 5px;
+}
+
+#Mike i:hover {
+  color: #5FCF80;
+  transition: 0.3s;
+}
+/* ========== END FOOTER ==========*/
+=======
 body {
   margin: 0;
   padding: 0;
