@@ -1,138 +1,43 @@
-/* Bootstrap Customize */
-
-/* JALEL HEADER*/
-#homeHeading
-{
-  text-align: center;
-  margin: auto;
-}
-/* FIN JALEL HEADER*/
-
-/* START TCHENY CSS */
-
-/* color: #F05F40; */
-#service
-{
-  text-align: center;
-}
-#service .container
-{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#service .title
-{
-  margin: 30px;
-}
-#service h2
-{
-  margin: 20px 0;
-}
-#service .separator
-{
-  margin: auto;
-  width: 60px;
-  border: 1.5px solid #F05F40;
-}
-#service .row
-{
-margin: 50px 0;
-}
-#service .fa
-{
-  font-size: 350%;
-  color: #F05F40;
-}
-#service p
-{
-  font-size: 120%;
-  color: #7F7777;
-}
-/* END TCHENY CSS*/
-
-/*PARTIE SHAMILA : GALERIE D'IMAGES*/
-
-.col-md-4 {
-  padding: 0;
-}
-
-#dl-section {
-  background-color: #222222;
-  height: 205px;
-  text-align: center;
-}
-
-#dl-section p {
-  color: #FFFFFF;
-  padding-top: 45px;
-  font-size: 30px;
-  margin-bottom: 25px;
-}
-
-#dl-section a {
-  background-color: #FFF;
-  color: #000;
-  border-radius: 50px;
-  padding: 15px 30px;
-  font-weight: bold;
-}
-
-#dl-section a:hover {
-  text-decoration: none;
-}
-/*FIN PARTIE SHAMILA*/
-
-/* PRESCISE */
-.footer{
-  width: 100%;
-  height: 400px;
-  background-color: #ffffff;
-}
-
-.text p{
-  text-align: center;
+#bouba .party{
   margin-top: 50px;
 }
-
-h1 {
-  font-size: 25px;
-  text-align: center;
-  margin-top: 60px;
+#bouba .text-content{
+  margin-top: 150px;
 }
-
-hr{
-  width: 0px;
-  height: 5px;
-  color: orange;
-  background-color: orange;
+#bouba h2{
+  font-weight: bolder;
 }
-
-img{
-  width: 50px;
-  height: 50px;
+#bouba h3{
+  font-weight: bolder;
 }
-.icone-enveloppe{
-  float: right;
-  margin-right: 230px;
-  color: orange;
+#bouba .fa{
+  color: #7cd797;
+  display: inline;
+  margin-right: 15px;
 }
-
-.icone-telephone{
-  float: left;
-  margin-left: 390px;
+#bouba .take{
+  background-color: #f9fafa;
 }
-.fa {
-  font-size: 300%;
-  color: #000;
+#bouba .buisness{
+  margin-left: 25px;
 }
-
-.text-t{
-margin-left: 360px;
-margin-top: 100px;
+#bouba .couleur{
+background-color: rgb(255, 255, 255);
 }
-
-.text-e{
-  margin-right: 100px;
-  margin-top: 10px;
+#bouba tr td{
+  border: 1px solid black;
+  padding: 10px 0;
 }
-/* END PRESCISE */
+#bouba table{
+  margin:auto;
+  width: 90%;
+  margin-top: 20px;
+}
+#bouba .new{
+  color: #7cd797;
+  display: inline;
+  text-transform: uppercase;
+}
+#bouba .fa-times{
+  color: #ed5a5a;
+}
