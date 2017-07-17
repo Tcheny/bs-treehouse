@@ -1,13 +1,4 @@
-* {
-  /*border: 1px solid black;*/
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* ========== TEXT ==========*/
+/* ========== TEXT MIKE ==========*/
 #Mike {
   height: 955px;
   background-color: #EDEFF0;
@@ -102,3 +93,291 @@ body {
   transition: 0.3s;
 }
 /* ========== END FOOTER ==========*/
+=======
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+#tcheny .navbar {
+  padding: 10px;
+  font-size: 1.2vw;
+  background-color: #fff;
+}
+#tcheny .navbar-brand {
+  color: #3AC162;
+  font-size: 2vw;
+}
+#tcheny .nav-green {
+  color: #3AC162;
+}
+#tcheny .nav-black {
+  color: #000 !important;
+}
+#tcheny .header {
+  background-image: url(../images/Header.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+#tcheny .header {
+  padding: 70px 0;
+  color: #fff;
+}
+#tcheny .headerTitle {
+  padding: 0 30px;
+}
+#tcheny .headerTitle h1 {
+  font-size: 6vw;
+  line-height: 130%;
+}
+#tcheny .headerTitle p {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin: 30px 0;
+}
+#tcheny .btn-custom {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(85, 85, 85);
+  padding: 1vw;
+  border-radius: 3px;
+}
+#tcheny .btn-custom:hover {
+  background-color: #fff;
+}
+#flexible h2 {
+  margin-top: 20px;
+  font-size: 2.1vw;
+}
+#flexible p {
+  margin-top: 15px;
+  font-size: 1.3vw;
+  color: rgb(148, 146, 146);
+  font-weight: lighter;
+}
+#flexible h3 {
+  font-size: 1.5vw;
+}
+#flexible .flex-part {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+#flexible .topics {
+  width: 80%;
+  margin: auto;
+  background-color: #F9FAFA;
+  padding: 50px 0;
+}
+#flexible .container-list {
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
+}
+#flexible .list-inline li{
+   border: 2px solid rgb(230, 228, 228);
+   border-radius: 50px;
+   padding: 7px 11px;
+   margin: 3px;
+}
+#flexible .articles {
+  margin: 30px 0;
+}
+#flexible .html {
+  color: rgb(71, 193, 226);
+}
+#flexible .css {
+  color: rgb(37, 106, 171);
+}
+#flexible .design {
+  color: rgb(240, 170, 52);
+}
+#flexible .js {
+  color: rgb(162, 64, 111);
+}
+#flexible .rb {
+  color: rgb(255, 11, 11);
+}
+#flexible .php {
+  rgb(125, 33, 218);
+}
+#flexible .wp {
+  color: rgb(121, 112, 221);
+}
+#flexible .ios {
+  color: rgb(118, 166, 128);
+}
+#flexible .android {
+  color: rgb(59, 219, 85);
+}
+#flexible .devtools {
+  color: rgb(74, 80, 110);
+}
+#flexible .python {
+  color: rgb(245, 216, 250);
+}
+#flexible .java {
+  color: rgb(77, 175, 57);
+}
+#flexible .digitalL {
+  color: rgb(184, 148, 224);
+}
+#flexible .gDev {
+  color: rgb(43, 107, 49);
+}
+#flexible .csharp {
+  color: rgb(164, 142, 108);
+}
+#flexible .daA {
+  color: rgb(219, 138, 53);
+}
+#flexible .virRea {
+  color: rgb(85, 223, 20);
+}
+#flexible .dB {
+  color: rgb(56, 60, 78);
+}
+#flexible .apis {
+  color: rgb(124, 98, 32);
+}
+#flexible .secur {
+  color: rgb(215, 138, 66);
+}
+#flexible .go {
+  color: rgb(38, 99, 138);
+}
+#flexible .businesses {
+  background-color: #F9FAFA;
+  padding: 50px 0;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+#flexible .businesses a {
+  font-weight: 500;
+  color: rgb(59, 205, 231);
+}
+#flexible .businesses a:hover {
+  text-decoration: none;
+}
+#flexible .businesses a:hover {
+  transition: 0.2s;
+	margin-right: 5px;
+}
+#flexible .fa-arrow-right {
+  color: rgb(59, 205, 231);
+}
+#flexible .article-1 {
+  padding-right: 40px;
+}
+#boxes .boxe-part1 {
+  border: 2px solid #3079AB;
+  border-radius: 5px;
+  padding: 30px 20px;
+  width: 31%;
+  margin-right: 30px;
+}
+#boxes .boxe-part1 i {
+  color: #3079AB;
+  font-size: 2vw;
+}
+#boxes .boxe-part1 h3 {
+  color: #3079AB;
+}
+#boxes .boxe-part1 .btn-box{
+  background-color: #3079AB;
+  color: #fff;
+  font-size: 0.9vw;
+}
+#boxes .boxe-part1 .btn-box:hover {
+  background-color: #255D83;
+}
+#boxes .boxe-part2 {
+  border: 2px solid #846FA3;
+  border-radius: 5px;
+  padding: 30px 20px;
+  width: 31%;
+  margin-right: 30px;
+}
+#boxes .boxe-part2 i {
+  color: #846FA3;
+  font-size: 2vw;
+}
+#boxes .boxe-part2 h3 {
+  color: #846FA3;
+}
+#boxes .boxe-part2 .btn-box{
+  background-color: #846FA3;
+  color: #fff;
+  font-size: 0.9vw;
+}
+#boxes .boxe-part2 .btn-box:hover {
+  background-color: #645180;
+}
+#boxes .boxe-part3 {
+  border: 2px solid #20898C;
+  border-radius: 5px;
+  padding: 30px 20px;
+  width: 31%;
+}
+#boxes .boxe-part3 i {
+  color: #20898C;
+  font-size: 2vw;
+}
+#boxes .boxe-part3 h3 {
+  color: #20898C;
+}
+#boxes h3 {
+  font-size: 1.4vw;
+}
+#boxes .boxe-part3 .btn-box{
+  background-color: #20898C;
+  color: #fff;
+  font-size: 0.9vw;
+}
+#boxes .boxe-part3 .btn-box:hover {
+  background-color: #176062;
+}
+#experiences {
+  background-image: url(../images/Header.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  color: #fff;
+}
+#experiences .headerTitle {
+  padding: 30px 30px;
+}
+#experiences .headerTitle h3 {
+  font-size: 2.5vw;
+  line-height: 130%;
+}
+#experiences .headerTitle p {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin: 30px 0;
+}
+#experiences .btn-custom1 {
+  background-color: #4be479;
+  color: #fff;
+  padding: 1vw;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+#experiences .btn-custom1:hover {
+  background-color: #3AC162;
+}
+#experiences .btn-custom2 {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(85, 85, 85);
+  padding: 1vw;
+  border-radius: 3px;
+}
+#experiences .btn-custom2:hover {
+  background-color: #fff;
+}
