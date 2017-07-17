@@ -48,6 +48,9 @@ body {
   padding: 1vw;
   border-radius: 3px;
 }
+#tcheny .btn-custom:hover {
+  background-color: #fff;
+}
 #flexible h2 {
   margin-top: 20px;
   font-size: 2.1vw;
@@ -241,4 +244,44 @@ body {
 }
 #boxes .boxe-part3 .btn-box:hover {
   background-color: #176062;
+}
+#experiences {
+  background-image: url(../images/Header.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  color: #fff;
+}
+#experiences .headerTitle {
+  padding: 30px 30px;
+}
+#experiences .headerTitle h3 {
+  font-size: 2.5vw;
+  line-height: 130%;
+}
+#experiences .headerTitle p {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin: 30px 0;
+}
+#experiences .btn-custom1 {
+  background-color: #4be479;
+  color: #fff;
+  padding: 1vw;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+#experiences .btn-custom1:hover {
+  background-color: #3AC162;
+}
+#experiences .btn-custom2 {
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(85, 85, 85);
+  padding: 1vw;
+  border-radius: 3px;
+}
+#experiences .btn-custom2:hover {
+  background-color: #fff;
 }
